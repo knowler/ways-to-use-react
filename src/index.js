@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 const Heading = props => <h1 {...props} />
 
 const App = () => (
