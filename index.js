@@ -1,7 +1,9 @@
-const Heading = props => React.createElement('h1', props)
+const Heading = props => <h1 {...props} />
 
-const App = () => React.createElement('main', {}, [
-  Heading({ children: 'Hello, World!', key: 'hello' }),
-])
+const App = () => (
+  <main>
+    <Heading>Hello, World!</Heading>
+  </main>
+)
 
-ReactDOM.render(App(), document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
