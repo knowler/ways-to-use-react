@@ -1,5 +1,4 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { h, render } from 'preact'
 
 const Heading = props => <h1 {...props} />
 
@@ -9,4 +8,4 @@ const App = () => (
   </main>
 )
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
