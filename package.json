@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "babel index.js -o dist.js"
+    "build": "babel index.js -o dist.js --minified"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
